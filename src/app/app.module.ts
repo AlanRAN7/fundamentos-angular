@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 // Modulos creados para el proyecto
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { DbzModule } from './dbz/dbz.module';
 // Componentes
 import { AppComponent } from './app.component';
 
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
     CounterModule,
     BrowserModule,
     AppRoutingModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
